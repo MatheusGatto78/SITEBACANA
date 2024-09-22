@@ -1,106 +1,101 @@
-/* Adicione isso ao seu CSS existente */
-
-* {
-    box-sizing: border-box;
+@font-face {
+    font-family: open;
+    src: url(../assets/static/OpenSans-Regular.ttf);
 }
 
-body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+@font-face {
+    font-family: allura;
+    src: url(../assets/Allura-Regular.ttf);
 }
 
 .topo {
-    background-image: url(../assets/topo\(cópia\).png);
-    padding: 13px 20px;
-}
-
-.topodown {
-    background-color: #d1a790;
-    padding: 15px 20px;
+    background-image: url(../assets/topo\ \(cópia\).png);
+    padding: 1rem;
     text-align: center;
 }
 
-.oslinks, .oslinksctt {
+.topodown {
+    padding: 1rem;
+    background-color: #d1a790;
+    text-align: center;
+}
+
+.oslinks {
     text-decoration: none;
     color: #67403c;
-    margin: 0 10px;
+    font-family: open;
+    margin: 0 1rem;
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza o conteúdo */
+    background-color: #67403c;
 }
 
 .image {
-    flex: 1 1 100%; /* Faz com que cada imagem ocupe a largura total em telas pequenas */
-    padding: 5px;
+    flex: 1 1 100%; /* Imagens ocupam 100% em telas pequenas */
+    max-width: 200px; /* Limita o tamanho máximo da imagem */
+    padding: 0.5rem; /* Espaçamento */
 }
 
-.responsive-image {
-    width: 100%;
+.image img {
+    max-width: 100%; /* Mantém a imagem responsiva */
     height: auto;
-    display: block;
 }
 
 .bemvindo {
     background-color: #fcd5be;
-    padding: 20px;
+    padding: 1rem;
 }
 
 .container2 {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que o conteúdo se reorganize */
 }
 
 .circular {
-    width: 100px;
-    height: 100px;
+    width: 30%;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
-    margin: 10px;
+    margin: 0 1rem;
 }
 
-.menutitulo {
-    background-color: #d1a790;
+.otitulodomenu {
     text-align: center;
+    font-size: 2rem; /* Fonte maior para dispositivos móveis */
 }
 
 .omenu {
-    padding: 20px;
+    padding: 2rem;
+    background-image: url(../assets/topo\ \(cópia\).png);
 }
 
-.bolo {
+.boloPOTE {
     display: flex;
-    flex-direction: column; /* Para empilhar itens verticalmente */
+    align-items: center;
+    margin: 1rem 0;
     background-color: #d1a790;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 20px;
-}
-
-.imgbolo {
-    max-width: 100%;
-    height: auto;
     border-radius: 10px;
+    padding: 1rem;
 }
 
-.tituloboloPOTE {
-    font-size: 24px;
-}
-
-.textoboloPOTE {
-    margin: 0;
+.imgboloPOTE {
+    border-radius: 10px;
+    margin-right: 1rem;
 }
 
 .direitos {
+    padding: 1rem;
     background-color: #d1a790;
     text-align: center;
-    padding: 20px;
 }
 
 .textdireitos {
     color: #67403c;
+    font-family: open;
 }
