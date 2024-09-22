@@ -8,94 +8,224 @@
     src: url(../assets/Allura-Regular.ttf);
 }
 
-.topo {
+
+.topo{
+    margin-top: -8.5px;
+    margin-left: -8.5px;
+    margin-right: -8.5px;
     background-image: url(../assets/topo\ \(cópia\).png);
-    padding: 1rem;
-    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 6px;
+    padding-left: 40px;
 }
 
-.topodown {
-    padding: 1rem;
+
+.topodown{
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #d1a790;
-    text-align: center;
 }
 
-.oslinks {
+.oslinks{
+    margin-left: 50px;
     text-decoration: none;
     color: #67403c;
     font-family: open;
-    margin: 0 1rem;
 }
+
+.oslinksctt{
+    text-decoration: none;
+    color: #67403c;
+    font-family: open;
+}
+
+
+.imagenstopo{
+    background-color: blue;
+    margin-left: -8.5px;
+}
+
 
 .container {
     display: flex;
-    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
-    justify-content: center; /* Centraliza o conteúdo */
+    width: calc(100% + 17px); 
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    margin-top: -3px;
     background-color: #67403c;
+    position: relative; 
 }
-
 .image {
-    flex: 1 1 100%; /* Imagens ocupam 100% em telas pequenas */
-    max-width: 200px; /* Limita o tamanho máximo da imagem */
-    padding: 0.5rem; /* Espaçamento */
+    flex: 1;
+    padding: 3px; 
+}
+.image img {
+    width: 100%;
+    height: auto;
+    display: block; 
 }
 
-.image img {
-    max-width: 100%; /* Mantém a imagem responsiva */
-    height: auto;
-}
 
 .bemvindo {
+    margin-left: -8.5px;
+    margin-right: -8.5px;
     background-color: #fcd5be;
-    padding: 1rem;
 }
 
 .container2 {
+    padding-left: 12px;
+    padding-right: 12px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; /* Permite que o conteúdo se reorganize */
+    justify-content: center; 
+    padding-top: 10px; 
 }
 
 .circular {
-    width: 30%;
-    height: auto;
+    margin-top: -30px; 
+    width: 150px; 
+    height: 150px; 
     border-radius: 50%;
-    object-fit: cover;
-    margin: 0 1rem;
+    object-fit: cover; 
+    margin: 0 40px; 
 }
 
-.otitulodomenu {
+.texto-container {
+    text-align: center; 
+    flex: 1; 
+    margin-bottom: 20px; 
+}
+
+.titulobemvindo {
+    font-size: 40px;
+    color: #67403c;
+    font-family: allura;
+}
+
+.textobemvindo {
+    color: #67403c;
+    font-family: open;
+}
+
+
+
+.menutitulo{
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    padding-top: 0.1px;
+    padding-bottom: 0.09px;
+    background-color: #d1a790;
+}
+
+.otitulodomenu{
     text-align: center;
-    font-size: 2rem; /* Fonte maior para dispositivos móveis */
+    font-size: 40px;
+    color: #67403c;
+    font-family: allura;
 }
 
-.omenu {
-    padding: 2rem;
+
+
+.omenu{
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    padding-top: 50px;
     background-image: url(../assets/topo\ \(cópia\).png);
+    padding-bottom: 50px;
 }
+
 
 .boloPOTE {
     display: flex;
-    align-items: center;
-    margin: 1rem 0;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 27px;
+    margin-left: 45px;
+    margin-right: 45px;
     background-color: #d1a790;
-    border-radius: 10px;
-    padding: 1rem;
+    border-radius: 50px;
 }
 
 .imgboloPOTE {
-    border-radius: 10px;
-    margin-right: 1rem;
+    border-radius: 20px;
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
 
-.direitos {
-    padding: 1rem;
-    background-color: #d1a790;
-    text-align: center;
+.tituloboloPOTE {
+    font-size: 40px;
+    color: #67403c;
+    font-family: allura;
+    margin: 0; /* Remove margens padrão */
 }
 
-.textdireitos {
+.textoboloPOTE {
     color: #67403c;
     font-family: open;
+    margin: 0; /* Remove margens padrão */
+}
+
+
+
+
+
+.boloM1 {
+    margin-top: 45px;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 27px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: #d1a790;
+    border-radius: 50px;
+}
+
+.imgboloM1 {
+    border-radius: 20px;
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.tituloboloM1 {
+    font-size: 40px;
+    color: #67403c;
+    font-family: allura;
+    margin: 0; /* Remove margens padrão */
+}
+
+.textoboloM1 {
+    color: #67403c;
+    font-family: open;
+    margin: 0; /* Remove margens padrão */
+}
+
+
+.direitos{
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+    margin-bottom: -8.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d1a790;
+}
+
+.textdireitos{
+    text-align: center;
+    color: #67403c;
+    font-family: open;
+}
+
+@media (max-width: 768px) {
+    .titulobemvindo {
+        font-size: 30px; /* Menor tamanho de fonte para dispositivos móveis */
+    }
+    
+    .tituloboloPOTE {
+        font-size: 24px; /* Ajuste de tamanho de fonte */
+    }
+    
+    .container {
+        flex-direction: column; /* Muda para coluna em telas menores */
+    }
 }
