@@ -137,7 +137,11 @@
 }
 
 
-.boloPOTE {
+
+
+
+
+/* .boloPOTE {
     padding-left: 40px;
     padding-top: 30px;
     padding-bottom: 27px;
@@ -149,21 +153,25 @@
 
 .imgboloPOTE {
     border-radius: 20px;
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    margin-right: 20px; 
 }
 
 .tituloboloPOTE {
     font-size: 40px;
     color: #67403c;
     font-family: allura;
-    margin: 0; /* Remove margens padrão */
+    margin: 0; 
 }
 
 .textoboloPOTE {
     color: #67403c;
     font-family: open;
-    margin: 0; /* Remove margens padrão */
-}
+    margin: 0; 
+} */
+
+
+
+
 
 
 
