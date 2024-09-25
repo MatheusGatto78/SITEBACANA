@@ -16,7 +16,6 @@
     background-image: url(../assets/topo\ \(cópia\).png);
     padding-top: 13px;
     padding-bottom: 6px;
-    padding-left: 40px;
 }
 
 
@@ -29,16 +28,18 @@
 }
 
 .oslinks{
-    margin-left: 50px;
+    margin-left: 9px;
     text-decoration: none;
     color: #67403c;
     font-family: open;
+    font-size: 15px;
 }
 
 .oslinksctt{
     text-decoration: none;
     color: #67403c;
     font-family: open;
+    font-size: 15px;
 }
 
 
@@ -72,6 +73,9 @@
     margin-left: -8.5px;
     margin-right: -8.5px;
     background-color: #fcd5be;
+    margin-top: -29px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .container2 {
@@ -83,30 +87,36 @@
     padding-top: 10px; 
 }
 
-.circular {
-    margin-top: -30px; 
-    width: 150px; 
-    height: 150px; 
+.circular { 
+    width: 130px; 
+    height: 130px; 
     border-radius: 50%;
-    object-fit: cover; 
-    margin: 0 40px; 
+    margin-top: 20px;
+    margin-left: 111px;
+    border: solid;
+    border-color: #67403c;
 }
 
 .texto-container {
     text-align: center; 
     flex: 1; 
     margin-bottom: 20px; 
+
 }
 
 .titulobemvindo {
     font-size: 40px;
     color: #67403c;
     font-family: allura;
+    text-align: center;
 }
 
 .textobemvindo {
     color: #67403c;
     font-family: open;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 15px;
 }
 
 
@@ -115,7 +125,7 @@
     margin-left: -8.5px;
     margin-right: -8.5px;
     padding-top: 0.1px;
-    padding-bottom: 0.09px;
+    padding-bottom: 0.1px;
     background-color: #d1a790;
 }
 
@@ -138,119 +148,49 @@
 
 
 
-
-
-
-/* .boloPOTE {
-    padding-left: 40px;
+.outrosbolos{
+    padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 27px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 9px;
+    margin-right: 9px;
     background-color: #d1a790;
     border-radius: 50px;
+    margin-top: 30px;
 }
-
-.imgboloPOTE {
-    border-radius: 20px;
-    margin-right: 20px; 
-}
-
-.tituloboloPOTE {
-    font-size: 40px;
-    color: #67403c;
-    font-family: allura;
-    margin: 0; 
-}
-
-.textoboloPOTE {
-    color: #67403c;
-    font-family: open;
-    margin: 0; 
-} */
-
 
 .boloPOTE {
-    display: flex;
-    flex-direction: row; /* Change from column to row */
-    align-items: center;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 27px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 9px;
+    margin-right: 9px;
     background-color: #d1a790;
     border-radius: 50px;
 }
 
 .imgboloPOTE {
+    border: solid;
+    border-color: #67403c;
+    display: block;
     border-radius: 20px;
     margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
 
-.boloPOTE-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Change from center to flex-start */
-}
-
 .tituloboloPOTE {
+    display: block;
     font-size: 40px;
     color: #67403c;
     font-family: allura;
     margin: 0; /* Remove margens padrão */
+    margin-top: 10px;
 }
 
 .textoboloPOTE {
     color: #67403c;
     font-family: open;
     margin: 0; /* Remove margens padrão */
-}
-
-/* Media query para telas menores que 768px */
-@media (max-width: 767px) {
-    .boloPOTE {
-        flex-direction: column;
-    }
-    .boloPOTE-content {
-        flex-direction: column;
-    }
-}
-
-
-
-
-
-
-
-.boloM1 {
-    margin-top: 45px;
-    display: flex;
-    padding-left: 40px;
-    padding-top: 30px;
-    padding-bottom: 27px;
-    margin-left: 45px;
-    margin-right: 45px;
-    background-color: #d1a790;
-    border-radius: 50px;
-}
-
-.imgboloM1 {
-    border-radius: 20px;
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
-}
-
-.tituloboloM1 {
-    font-size: 40px;
-    color: #67403c;
-    font-family: allura;
-    margin: 0; /* Remove margens padrão */
-}
-
-.textoboloM1 {
-    color: #67403c;
-    font-family: open;
-    margin: 0; /* Remove margens padrão */
+    font-size: 15px;
 }
 
 
@@ -267,4 +207,5 @@
     text-align: center;
     color: #67403c;
     font-family: open;
+    font-size: 13px;
 }
