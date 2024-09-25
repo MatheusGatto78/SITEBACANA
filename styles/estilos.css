@@ -78,15 +78,6 @@
     padding-bottom: 30px;
 }
 
-.container2 {
-    padding-left: 12px;
-    padding-right: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    padding-top: 10px; 
-}
-
 .circular { 
     width: 130px; 
     height: 130px; 
